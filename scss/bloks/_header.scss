@@ -1,0 +1,41 @@
+.head{
+    display: flex;
+    align-items: center;
+    padding: 44px 0;
+
+    &__logo{
+        display: flex;
+        margin-right: auto;
+    }
+}
+
+.nav{
+    &__list{
+        display: flex;
+        margin: 0 !important;
+        padding: 0;
+        list-style: none;
+
+        &__item{
+            
+            &__link{
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 0.923077px;
+                color: #83888F;
+                transition: all 0.15s ease-in-out;
+
+                &:hover{
+                    color: #4d5050;
+                }
+            }
+        }
+
+        &__item:nth-child(2){
+            padding: 0 32px;
+        }
+    }
+}
